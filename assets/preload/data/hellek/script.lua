@@ -3,15 +3,6 @@
 --Tricky Mod Developers: Banbuds, Rosebud, KadeDev, CVal, YingYang48, JADS, Moro
 --Special Thanks: Tom Fulp, Krinkels, GWebDev, Tsuraran
 local allowCountdown = false
-function onStartCountdown()
-    -- Block the first countdown and start cutscene
-    if not allowCountdown and isStoryMode and not seenCutscene then
-        startVideo('HellClownIntro')
-	    allowCountdown = true;
-        return Function_Stop;
-    end
-	return Function_Continue;
-end
 function onCreate()
 
     --Adds Lua Sprites

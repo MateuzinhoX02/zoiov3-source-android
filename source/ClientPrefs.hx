@@ -18,6 +18,8 @@ class ClientPrefs {
 	public static var cursing:Bool = true;
 	public static var violence:Bool = true;
 	public static var camZooms:Bool = true;
+	public static var naovenceu:Bool = true;
+	public static var zapurgacao:Bool = false;
 	public static var hideHud:Bool = false;
 	public static var noteOffset:Int = 0;
 	public static var speed:Float = 2;
@@ -72,6 +74,8 @@ class ClientPrefs {
 		FlxG.save.data.noteOffset = noteOffset;
 		FlxG.save.data.hideHud = hideHud;
 		FlxG.save.data.arrowHSV = arrowHSV;
+		FlxG.save.data.naovenceu = naovenceu;
+		FlxG.save.data.zapurgacao = zapurgacao;
 		FlxG.save.data.imagesPersist = imagesPersist;
 		FlxG.save.data.ghostTapping = ghostTapping;
 		FlxG.save.data.hideTime = hideTime;
@@ -110,6 +114,13 @@ class ClientPrefs {
 		}
 		if(FlxG.save.data.lowQuality != null) {
 			lowQuality = FlxG.save.data.lowQuality;
+		}
+
+		if(FlxG.save.data.naovenceu != null) {
+			naovenceu = FlxG.save.data.naovenceu;
+		}
+		if(FlxG.save.data.zapurgacao != null) {
+			zapurgacao = FlxG.save.data.zapurgacao;
 		}
 		if(FlxG.save.data.framerate != null) {
 			framerate = FlxG.save.data.framerate;

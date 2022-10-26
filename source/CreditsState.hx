@@ -61,7 +61,6 @@ class CreditsState extends MusicBeatState
 		['Yoisabo',		'nashira',		'Core e Pitro be like',					'https://www.youtube.com/channel/UCgGOUTghLXFrWXUqL1oQp7A',	'0xFF370041'],		
 		['Discord',			'discord',			"Discord da nossa equipe.",					'https://discord.gg/rQpcpHpW88',			0xFF2C7CE5],
 		[''],
- ​        
                         ['Psych Engine Android Port'],
 			['M.A. Jigsaw',		    'majigsaw',		    'Main Coder of The Port',	 'https://www.youtube.com/channel/UC2Sk7vtPzOvbVzdVTWrribQ',	'0xFFC30085'],
 			['Psych Engine Team'],

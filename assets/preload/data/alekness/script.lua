@@ -3,16 +3,7 @@
 --Tricky Mod Developers: Banbuds, Rosebud, KadeDev, CVal, YingYang48, JADS, Moro
 --Special Thanks: Tom Fulp, Krinkels, GWebDev, Tsuraran
 local allowCountdown = false
-function onStartCountdown()
-    -- Block the first countdown and start cutscene
-    if not allowCountdown and isStoryMode and not seenCutscene then
-        setProperty('inCutscene', true)
-        startVideo('HankShootsTricky')
-	    allowCountdown = true;
-        return Function_Stop;
-    end
-	return Function_Continue;
-end
+
 function onCreate()
 
     --Adds Lua Sprites
